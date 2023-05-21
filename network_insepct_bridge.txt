@@ -1,0 +1,45 @@
+[
+    {
+        "Name": "bridge",
+        "Id": "ecc7258cad37ccaf46ad979d494ccd9f0b443edc8e5c3e885ad66c41be5fef0a",
+        "Created": "2023-05-21T15:52:19.412162248Z",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.18.0.0/16",
+                    "Gateway": "172.18.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "3df716678c408b9f0e1c244d14fa554d1bc170d3d57e1ce66311e02b5bf63f74": {
+                "Name": "one",
+                "EndpointID": "2ad0af4d68edc115b027858eb4449ad5d44eb8c8963ec064e199aec230cda820",
+                "MacAddress": "02:42:ac:12:00:02",
+                "IPv4Address": "172.18.0.2/16",
+                "IPv6Address": ""
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.default_bridge": "true",
+            "com.docker.network.bridge.enable_icc": "true",
+            "com.docker.network.bridge.enable_ip_masquerade": "true",
+            "com.docker.network.bridge.host_binding_ipv4": "0.0.0.0",
+            "com.docker.network.bridge.name": "docker0",
+            "com.docker.network.driver.mtu": "1460"
+        },
+        "Labels": {}
+    }
+]

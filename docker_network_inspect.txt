@@ -1,0 +1,45 @@
+[
+    {
+        "Name": "SIT323",
+        "Id": "26dfe01f030002a47adda7951875bc4fbd1108ba300e87889c8f0135b75e8189",
+        "Created": "2023-05-21T16:40:01.878135717Z",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": {},
+            "Config": [
+                {
+                    "Subnet": "172.19.0.0/16",
+                    "Gateway": "172.19.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "1d8a473ad9a2d3b4633dca535ee8473f39a0f903029ea20799f5de4f714fb009": {
+                "Name": "twoo",
+                "EndpointID": "06a50bf5ec87c8ccae3b24e0084a8e3f63221da8ec1117fc6c3b27a3ab0d7929",
+                "MacAddress": "02:42:ac:13:00:03",
+                "IPv4Address": "172.19.0.3/16",
+                "IPv6Address": ""
+            },
+            "3df716678c408b9f0e1c244d14fa554d1bc170d3d57e1ce66311e02b5bf63f74": {
+                "Name": "one",
+                "EndpointID": "5d200678f2fe17d2ee66efae5279e05d930c06e34ddd53211d540003f93565ac",
+                "MacAddress": "02:42:ac:13:00:02",
+                "IPv4Address": "172.19.0.2/16",
+                "IPv6Address": ""
+            }
+        },
+        "Options": {},
+        "Labels": {}
+    }
+]
